@@ -1,0 +1,12 @@
+---
+Name: myrequestprocessors
+After:
+  - requestprocessors
+Only:
+  environment: 'dev'
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Control\Director:
+    properties:
+      Middlewares:
+        clie\middleware\ConsolerMiddleware: '%$clie\middleware\ConsolerMiddleware'
