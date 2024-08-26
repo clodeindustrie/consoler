@@ -1,5 +1,5 @@
 {
-  "name": "clie/silverstripe-consoler",
+  "name": "clodeindustrie/silverstripe-consoler",
   "description": "Debug to your browser console",
   "homepage": "https://github.com/clodeindustrie/silverstripe-consoler",
   "type": "silverstripe-vendormodule",
