@@ -1,5 +1,5 @@
 ---
-Name: myrequestprocessors
+Name: consolermiddleware
 After:
   - requestprocessors
 Only:
